@@ -16,9 +16,19 @@ export default function Footer() {
                 <kbd>Tab</kbd> to restart test
             </span>
             <footer>
-                <a href="https://x.com/sagarbhusal_0" className="follow-me-button" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-x"></i>
-                </a>
+             <div class="follow-me-buttons">
+    <a href="https://github.com/sagarbhusal0" class="follow-me-button" target="_blank">
+        <i class="fab fa-github"></i>
+    </a>
+    <a href="https://discord.com/users/1071463146436432003" class="follow-me-button" target="_blank">
+        <i class="fab fa-discord"></i>
+    </a>
+    <a href="https://www.reddit.com/user/Weird-Wrongdoer4448/" class="follow-me-button" target="_blank">
+        <i class="fab fa-reddit"></i>
+    </a>
+	  <a href="https://x.com/sagarbhusal_0" class="follow-me-button" target="_blank">
+        <i class="fab fa-x"></i> </a>
+</div>
                 <span>
                     Owned by{" "}
                     <a
