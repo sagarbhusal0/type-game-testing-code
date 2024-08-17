@@ -184,6 +184,6 @@ export default function Header() {
                     onAnimationEnd={() => setAnimationProps(null)}></div>
             ) : null}
         </header>
-        <link rel="stylesheet" href="https://www.sagarb.com/css/do-follow.css">
+     
     );
 }
