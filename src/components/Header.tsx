@@ -166,10 +166,10 @@ export default function Header() {
 
     return (
         <header className={timerId ? "hidden" : undefined}>
-            <a href="." className="brand">
-                <img src="https://iili.io/dGXx8zP.png" alt="Logo" style={{ height: "60px" }} />
-               
-            </a>
+         <a href="." className="brand" style={{ position: 'absolute', top: '10px', left: '10px' }}>
+    <img src="https://iili.io/dGXx8zP.png" alt="Logo" style={{ height: "60px" }} />
+</a>
+
             <div className="buttons">
                 {Object.entries(options).map(([option, choices]) => (
                     <div key={option} className={option}>
