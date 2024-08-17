@@ -156,7 +156,7 @@ export default function Header() {
         <header className={timerId ? "hidden" : undefined}>
             <a href="." className="brand">
                 <img src="https://iili.io/dGWrMba.png" alt="Logo" style={{ height: "50px" }} />
-                CoreX Type
+               
             </a>
             <div className="buttons">
                 {Object.entries(options).map(([option, choices]) => (
