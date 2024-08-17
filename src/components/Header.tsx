@@ -155,7 +155,7 @@ export default function Header() {
     return (
         <header className={timerId ? "hidden" : undefined}>
             <a href="." className="brand">
-                <img src="https://iili.io/dGWrMba.png" alt="Logo" style={{ height: "60px" }} />
+                <img src="https://iili.io/dGXx8zP.png" alt="Logo" style={{ height: "60px" }} />
                
             </a>
             <div className="buttons">
