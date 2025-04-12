@@ -24,7 +24,7 @@ export default function Footer() {
                         rel="noreferrer"
                         href="https://www.sagarb.com"
                     >
-                        Sagar Bhusal
+                        Sagar bhusal
                     </a>
                 </span>
                 <div className="donate-button">
